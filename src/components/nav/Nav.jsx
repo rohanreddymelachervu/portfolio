@@ -10,11 +10,12 @@ const Nav = () => {
   const [activeNow, setActiveNow] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNow('#home')} className={activeNow === '#' ? 'active' :  ''}><AiOutlineHome /></a>
-      <a href="#about" onClick={() => setActiveNow('#about')} className={activeNow==='#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href="#experience" onClick={() => setActiveNow('#experience')} className={activeNow==='#experience' ? 'active' : ''}><FiBookOpen /></a>
-      <a href="#contact" onClick={() => setActiveNow('#contact')} className={activeNow==='#contact' ? 'active' : ''}><BiMessageDots /></a> 
-
+      <ul>
+        <li><a href="#" onClick={() => setActiveNow('#home')} className={activeNow === '#' ? 'active' :  ''}><AiOutlineHome /></a></li>
+        <li><a href="#about" onClick={() => setActiveNow('#about')} className={activeNow==='#about' ? 'active' : ''}><AiOutlineUser /></a></li>
+        <li><a href="#experience" onClick={() => setActiveNow('#experience')} className={activeNow==='#experience' ? 'active' : ''}><FiBookOpen /></a></li>
+        <li><a href="#contact" onClick={() => setActiveNow('#contact')} className={activeNow==='#contact' ? 'active' : ''}><BiMessageDots /></a></li>
+      </ul>
     </nav>
   )
 }
