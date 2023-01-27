@@ -11,10 +11,10 @@ const Nav = () => {
   return (
     <nav>
       <ul>
-        <li><a href="#" onClick={() => setActiveNow('#home')} className={activeNow === '#' ? 'active' :  ''}><AiOutlineHome /></a></li>
-        <li><a href="#about" onClick={() => setActiveNow('#about')} className={activeNow==='#about' ? 'active' : ''}><AiOutlineUser /></a></li>
-        <li><a href="#experience" onClick={() => setActiveNow('#experience')} className={activeNow==='#experience' ? 'active' : ''}><FiBookOpen /></a></li>
-        <li><a href="#contact" onClick={() => setActiveNow('#contact')} className={activeNow==='#contact' ? 'active' : ''}><BiMessageDots /></a></li>
+        <li><a href="#" onClick={() => setActiveNow('#home')} className={activeNow === '#' ? 'active' :  ''}><AiOutlineHome size='2em' /></a></li>
+        <li><a href="#about" onClick={() => setActiveNow('#about')} className={activeNow==='#about' ? 'active' : ''}><AiOutlineUser size='2em'/></a></li>
+        <li><a href="#experience" onClick={() => setActiveNow('#experience')} className={activeNow==='#experience' ? 'active' : ''}><FiBookOpen size='2em'/></a></li>
+        <li><a href="#contact" onClick={() => setActiveNow('#contact')} className={activeNow==='#contact' ? 'active' : ''}><BiMessageDots size='2em'/></a></li>
       </ul>
     </nav>
   )
