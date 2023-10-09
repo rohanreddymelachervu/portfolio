@@ -21,7 +21,7 @@ const About = () => {
             <article className='about_card'>
               <RiAwardLine className="about_icon"/>
               <h4>Experience</h4>
-              <small>9 months work experience</small>
+              <small>3 years work experience</small>
             </article>
 
             <article className='about_card'>
@@ -33,13 +33,13 @@ const About = () => {
             <article className='about_card'>
               <BiFolderOpen className="about_icon"/>
               <h4>Projects</h4>
-              <small>10+ completed Projects</small>
+              <small>4 completed Projects</small>
             </article>
 
           </div>
           <center>
             <p>
-              Worked in multiple projects as an intern with multiple clients. I believe in using technology as a tool to add value to society and businesses. 
+              I've had the privilege of collaborating on diverse projects with a range of clients, delivering innovative software solutions. My core belief is that technology is not just a tool; it's a means to empower and add value to both society and businesses.
             </p>
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
           </center>

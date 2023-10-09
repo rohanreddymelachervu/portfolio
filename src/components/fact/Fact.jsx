@@ -3,12 +3,12 @@ import './fact.css'
 import {FaArrowCircleRight, FaArrowCircleLeft} from 'react-icons/fa'
 const Fact = () => {
   const words = [
-    {id:0, value:"I play the electric guitar"},
-    {id:1, value:"I love listening to metal, especially death metal"},
-    {id:2, value:"I love gymming and lifting heavy"},
-    {id:3, value:"I love sports, I play Lawn Tennis, Table Tennis, Football, Basketball"},
-    {id:4, value:"Can solve 3x3 rubik's cube under 10 seconds"},
-    {id:5, value:"I love binging shows, especially sitcoms and thriller/horror"}
+    {id:0, value:"Electric guitar"},
+    {id:1, value:"Love listening to metal, especially death metal"},
+    {id:2, value:"Gymming and lifting heavy"},
+    {id:3, value:"Play Lawn Tennis, Table Tennis, Football, Basketball"},
+    {id:4, value:"Speedcuber"},
+    {id:5, value:"Binging shows, especially sitcoms and thriller/horror"}
   ]
   const [current, setCurrent] = useState(0)
   const length = words.length
