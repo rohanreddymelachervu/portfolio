@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-        npm install react-scripts --save-dev
-        npm install
+          npm install react-scripts --save-dev
+          npm install
 
       - name: Build React app
         run: npm run build
