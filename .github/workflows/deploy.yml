@@ -20,6 +20,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
+          npm cache clean --force
           npm install react-scripts
           npm install
           npm run deploy
