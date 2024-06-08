@@ -21,7 +21,7 @@ const About = () => {
             <article className='about_card'>
               <RiAwardLine className="about_icon"/>
               <h4>Experience</h4>
-              <small>3 years work experience</small>
+              <small>2 years experience</small>
             </article>
 
             <article className='about_card'>
